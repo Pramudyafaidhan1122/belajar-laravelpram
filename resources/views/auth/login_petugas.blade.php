@@ -7,8 +7,8 @@
         </div>
     @endif
 
-
-    <form action={{url('/login')}} method="post">
+    <h1>Login Petugas</h1>
+    <form action={{url('petugas/login')}} method="post">
         @method("POST")
         @CSRF
         <div>
